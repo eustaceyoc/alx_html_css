@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,13 +15,88 @@ main {
 article {
     flex: 2; 
     overflow-y: auto; 
+    padding: 15px;
 }
 
 aside {
     flex: 1; 
     overflow-y: auto; 
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 2px solid #ddd;
+}
 
 header, footer {
     padding: 10px;
     background-color: #f0f0f0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    margin: 0;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header li a:hover {
+    color: #007BFF; 
+}
+
+article h1, article h2, article h3 {
+    font-family: Arial, sans-serif;
+    color: #222;
+    margin-top: 1em;
+}
+
+article p {
+    line-height: 1.5;
+    color: #444;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+article th, article td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+article th {
+    background-color: #f2f2f2;
+}
+
+article a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+.twitter-tweet {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #e0e0e0;
 }
