@@ -1,0 +1,12 @@
+*, 
+*::after
+*::before{
+    margin:0;
+}
+:root {
+    --coral : #ff6565;
+    --dark:#071629;
+    --light:#FFFFFF;
+    -sans-serif-font:'labster', sans-serif;
+    
+}
